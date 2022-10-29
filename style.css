@@ -1,0 +1,37 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.mousePosition {
+  position: fixed;
+  top: auto;
+  right: auto;
+  bottom: 35px;
+  left: 5px;
+  transform: translateX(0%);
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(225, 225, 225, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.proj-prec-select{
+  position: fixed;
+  top: auto;
+  right: auto;
+  bottom: 60px;
+  left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px
+}
